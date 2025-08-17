@@ -64,7 +64,7 @@
         Item4
       </div>
     </section>
-    <section class="flex justify-center">
+    <section class="flex justify-between gap-4">
       <div class="bg-purple-400 border-4 border-red-600 w-96 h-32 text-3xl">
         Item11
       </div>
@@ -74,9 +74,24 @@
       <div class="bg-purple-400 border-4 border-red-600 w-96 h-32 text-3xl">
         Item13
       </div>
-      <div class="bg-purple-400 border-4 border-red-600 w-96 h-32 text-3xl">
-        Item14
-      </div>
+    </section>
+
+    <!-- grid section -->
+    <section
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-2 gap-y-8"
+    >
+      <div class="bg-red-300 text-2xl">Box-1</div>
+      <div class="bg-red-300 text-2xl">Box-2</div>
+      <div class="bg-red-300 text-2xl">Box-3</div>
+      <div class="bg-red-300 text-2xl xl:row-span-4">Box-4</div>
+      <div class="bg-red-300 text-2xl col-span-2">Box-5</div>
+      <div class="bg-red-300 text-2xl">Box-6</div>
+      <div class="bg-red-300 text-2xl">Box-7</div>
+      <div class="bg-red-300 text-2xl lg:col-span-3">Box-8</div>
+      <div class="bg-red-300 text-2xl">Box-9</div>
+      <div class="bg-red-300 text-2xl">Box-10</div>
+      <div class="bg-red-300 text-2xl">Box-11</div>
+      <div class="bg-red-300 text-2xl">Box-12</div>
     </section>
   </body>
 </html>
